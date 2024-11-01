@@ -1,2 +1,2 @@
-# whiteandblack
+## My blog
 A blogging website 
