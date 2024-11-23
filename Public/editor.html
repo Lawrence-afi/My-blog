@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.css" >
+    <style>
+         .navbar-container{
+              display: flex;
+              margin: 0;
+              list-style-type: none;
+              align-items: center;
+              justify-content: space-between;
+             }
+            .ph-grey::placeholder{
+               color: rgba(0,0,0,0.3)!important;
+             }
+             .options{
+               overflow-x: scroll!important;
+               list-style-type: none;
+               margin: 0;
+             }
+    </style>
+  </head>
+  <body class="">
+    <!-- The nav section -->
+    <nav class="mw-100 h-auto">
+      
+      <ul class="border mw-100 m-0 d-flex p-0 navbar-container">
+        <li class="">
+          <div class="d-inline-flex justify-content-around align-items-center p-2">
+            <i class="fa fa-arrow-left"></i>
+            <img src="./assets/Logo.png" class="w-50">
+          </div>
+        </li>
+        <li class="border border-2 border-dark px-1 me-3 rounded-5">
+          <div>
+            <i class="fa fa-question p-1"></i>
+          </div>
+        </li>
+      </ul>
+      
+    </nav>
+    
+    <!-- The tab section-->
+    
+    <div class="row p-2 h-auto">
+      <div class="col-6 col-sm-9 ">
+        <input class="form-control border w-100 border-light ph-grey" placeholder="Enter title ..." type="text">
+      </div>
+      <div class="col ">
+        <div class="d-inline-flex justify-content-end flex-row container-fluid">
+          <div class="btn-group">
+            <button class="btn border"><i class="fa fa-cloud "></i></button>
+            <button class="btn border"><i class="fa fa-eye "></i> </button>
+          </div>
+         <button class="btn border btn-success black"><i class="fa fa-send "></i></button></div>
+      </div>
+    </div>
+    
+    <ul class="d-flex flex-row container-fluid options border-bottom p-2 h-auto">
+      <li class=" py-1 px-3 border-end border-2 small"><i class="fa fa-floppy-o text-secondary"></i></li>
+      <li class=" py-1 px-3 small"><i class="fa fa-undo text-secondary"></i></li>
+      <li class=" py-1 px-3 border-end border-2 small"><i class="fa fa-redo text-secondary"></i></li>
+      <li class=" py-1 px-3 small"><i class="fa fa-bold text-secondary"></i></li>
+      <li class=" py-1 px-3 small"><i class="fa fa-underline text-secondary"></i></li>
+      <li class=" py-1 px-3 border-end small"><i class="fa fa-italic text-secondary"></i></li>
+      <li class=" py-1 px-3 small"><i class="fa fa-image text-secondary"></i></li>
+      <li class=" py-1 px-3 border-end border-2 small"><i class="fa fa-file-video-o text-secondary"></i></li>
+      <li class=" py-1 px-3 small"><i class="fa fa-list-ol text-secondary"></i></li>
+      <li class="py-1 px-3 small"><i class="fa fa-list-ul text-secondary"></i></li>
+      <li class="py-1 px-3 small"><i class="fa fa-strikethrough text-secondary"></i></li>
+      <li class="py-1 px-3 small"><i class="fa fa-header text-secondary"></i></li>
+      <li class="py-1 px-3 border-end border-2 small"><i class="fa fa-paragraph text-secondary"></i></li>
+      <li class="py-1 px-3 small"><i class="fa ll-paint-brush text-secondary"></i></li>
+      <li class="py-1 px-3 small"><i class="lyfa fa-link"></i></li>
+    </ul>
+    
+    <div class="container-fluid p-0 h-75">
+      <div class="border mw-100">
+        <textarea class="mw-100 w-100 p-3 h-100 mh-100 ph-grey border"  placeholder="whats on your mind ...."></textarea>
+      </div>
+    </div>
+    
+    
+    <script src="/Bootstrap/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/ff11411500.js" crossorigin="anonymous"></script>
+  </body>
+</html>
